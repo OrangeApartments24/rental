@@ -1,0 +1,22 @@
+.about__image {
+    position: relative;
+    padding-left: 100px;
+    width: 260px;
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../../../images/about.svg');
+}
+
+.about__image::before {
+    width: 500px;
+    height: 600px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: '';
+    position: absolute;
+    right: 100px;
+    bottom: -50%;
+    background-image: url('../../../images/about_bg.svg');
+}

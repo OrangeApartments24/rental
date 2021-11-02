@@ -1,0 +1,11 @@
+.call__caption-link {
+    color: #E68E3880;
+    font-weight: 500;
+    text-underline-offset: 4px;
+    transition: opacity .3s;
+}
+
+
+.call__caption-link:hover {
+    opacity: .6;
+}

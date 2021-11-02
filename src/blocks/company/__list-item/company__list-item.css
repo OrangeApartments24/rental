@@ -1,0 +1,21 @@
+.company__list-item {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.company__list-item::before {
+    background: #e68e38;
+    border-radius: 10px;
+    content: "";
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    top: 9px;
+    left: -17px;
+}

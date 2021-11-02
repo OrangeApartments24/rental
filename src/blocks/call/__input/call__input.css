@@ -1,0 +1,21 @@
+.call__input {
+    border: 1px solid #E68E38;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+    padding: 17px 27px 13px 27px;
+    border-radius: 15px;
+    background-color: transparent;
+    outline: none;
+    color: #E68E38;
+    width: 415px;
+    transition: border-color .3s;
+}
+
+.call__input::placeholder {
+    color: #E68E3880;
+}
+
+.call__input:focus {
+    border-color: #E68E3880;;
+}

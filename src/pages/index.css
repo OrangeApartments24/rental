@@ -1,0 +1,86 @@
+@import url('../vendor/normalize.css');
+@import url('../vendor/roboto/roboto.css');
+
+@import url('../blocks/block-heading/block-heading.css');
+
+@import url('../blocks/root/root.css');
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__info/header__info.css');
+@import url('../blocks/header/__heading/header__heading.css');
+@import url('../blocks/header/__heading/_accent/header__heading_accent.css');
+@import url('../blocks/header/__caption/header__caption.css');
+@import url('../blocks/header/__image/header__image.css');
+
+@import url('../blocks/logos/logos.css');
+@import url('../blocks/logos/__item/logos__item.css');
+
+@import url('../blocks/social/social.css');
+@import url('../blocks/social/__item/social__item.css');
+@import url('../blocks/social/__image/social__image.css');
+
+@import url('../blocks/about/about.css');
+@import url('../blocks/about/__text-block/about__text-block.css');
+@import url('../blocks/about/__heading/about__heading.css');
+@import url('../blocks/about/__text/about__text.css');
+@import url('../blocks/about/__image/about__image.css');
+
+@import url('../blocks/difficulties/difficulties.css');
+@import url('../blocks/difficulties/__heading/difficulties__heading.css');
+@import url('../blocks/difficulties/__info/difficulties__info.css');
+@import url('../blocks/difficulties/__list-item/difficulties__list-item.css');
+@import url('../blocks/difficulties/__list/difficulties__list.css');
+@import url('../blocks/difficulties/__image/difficulties__image.css');
+
+@import url('../blocks/run/run.css');
+@import url('../blocks/run/__image/run__image.css');
+@import url('../blocks/run/__info/run__info.css');
+@import url('../blocks/run/__heading/run__heading.css');
+@import url('../blocks/run/__heading/_accent/run__heading_accent.css');
+@import url('../blocks/run/__list/run__list.css');
+@import url('../blocks/run/__list-item/run__list-item.css');
+@import url('../blocks/run/__list-item/_accent/run__list-item_accent.css');
+
+@import url('../blocks/benefits/benefits.css');
+@import url('../blocks/benefits/__info/benefits__info.css');
+@import url('../blocks/benefits/__heading/benefits__heading.css');
+@import url('../blocks/benefits/__list/benefits__list.css');
+@import url('../blocks/benefits/__list-item/benefits__list-item.css');
+@import url('../blocks/benefits/__image/benefits__image.css');
+
+@import url('../blocks/company/company.css');
+@import url('../blocks/company/__text-block/company__text-block.css');
+@import url('../blocks/company/__heading/company__heading.css');
+@import url('../blocks/company/__list/company__list.css');
+@import url('../blocks/company/__list-item/company__list-item.css');
+@import url('../blocks/company/__list-item/_accent/company__list-item_accent.css');
+@import url('../blocks/company/__choose/company__choose.css');
+@import url('../blocks/company/__choose-text/company__choose-text.css');
+@import url('../blocks/company/__map/company__map.css');
+
+@import url('../blocks/apartments/apartments.css');
+@import url('../blocks/apartments/__text-block/apartments__text-block.css');
+@import url('../blocks/apartments/__heading/apartments__heading.css');
+@import url('../blocks/apartments/__text/apartments__text.css');
+
+@import url('../blocks/qoute/qoute.css');
+@import url('../blocks/qoute/__video/qoute__video.css');
+@import url('../blocks/qoute/__text-block/qoute__text-block.css');
+@import url('../blocks/qoute/__heading/qoute__heading.css');
+@import url('../blocks/qoute/__text/qoute__text.css');
+@import url('../blocks/qoute/__role/qoute__role.css');
+@import url('../blocks/qoute/__video-block/qoute__video-block.css');
+
+@import url('../blocks/call/call.css');
+@import url('../blocks/call/__text-block/call_text-block.css');
+@import url('../blocks/call/__heading/call__heading.css');
+@import url('../blocks/call/__text/call__text.css');
+@import url('../blocks/call/__form/call__form.css');
+@import url('../blocks/call/__input/call__input.css');
+@import url('../blocks/call/__submit/call__submit.css');
+@import url('../blocks/call/__caption/call__caption.css');
+@import url('../blocks/call/__caption-link/call__caption-link.css');
+
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__text-block/footer__text-block.css');
+@import url('../blocks/footer/__caption/footer__caption.css');
+@import url('../blocks/footer/__link/footer__link.css');

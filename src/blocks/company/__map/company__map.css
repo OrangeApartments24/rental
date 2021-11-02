@@ -1,0 +1,19 @@
+.company__map {
+    width: 540px;
+    height: 540px;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* .company__map::before {
+    width: 500px;
+    height: 600px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: '';
+    position: absolute;
+    right: 100px;
+    bottom: -50%;
+    background-image: url('../../../images/about_bg.svg');
+} */

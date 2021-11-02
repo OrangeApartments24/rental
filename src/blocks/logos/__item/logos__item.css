@@ -1,0 +1,7 @@
+.logos__item:first-of-type {
+    margin-right: 45px;
+}
+
+.logos__item {
+    cursor: pointer;
+}

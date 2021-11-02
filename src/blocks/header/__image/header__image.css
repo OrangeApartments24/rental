@@ -1,0 +1,31 @@
+.header__image {
+    background: url('../../../images/hero.jpg');
+    background-size: cover;
+    width: 450px;
+    height: 570px;
+    border-radius: 48px;
+    position: relative;
+    box-shadow: 4px 4px 95px -84px rgba(34, 60, 80, 0.2);
+}
+
+.header__image::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 48px;
+    border: 1px solid #E68E38;
+    transform: rotate(15deg);
+    z-index: -1;
+}
+
+.header__image::after {
+    content: 'арендовано';
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: 1px solid white;
+    top: 30px;
+    left: 40px;
+    position: absolute;
+    color: white;
+}

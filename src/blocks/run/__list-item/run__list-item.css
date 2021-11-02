@@ -1,0 +1,19 @@
+.run__list-item {
+    counter-increment: my-awesome-counter;
+    padding-left: 50px;
+    position: relative;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.run__list-item::before {
+    position: absolute;
+    content: counter(my-awesome-counter)".";
+    left: 0;
+    bottom: 15px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 35px;
+    color: #E68E3836;
+}

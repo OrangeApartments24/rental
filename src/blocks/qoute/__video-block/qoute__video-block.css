@@ -1,0 +1,13 @@
+.qoute__video-block {
+    position: relative;
+}
+
+.qoute__video-block::before {
+    position: absolute;
+    content: '';
+    background-image: url('../../../images/qoute.svg');
+    width: 250px;
+    height: 200px;
+    top: 0;
+    left: 0;
+}

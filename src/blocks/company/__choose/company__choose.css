@@ -1,0 +1,10 @@
+.company__choose {
+    margin-top: 25px;
+    background: #E68E3826;
+    border-radius: 15px;
+    padding: 20px 40px 20px 110px;
+    background-image: url('../../../images/ruble.svg');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 70px 80px;
+}

@@ -1,0 +1,9 @@
+.run__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    counter-reset: my-awesome-counter;
+    list-style: none;
+    grid-gap: 60px 40px;
+    margin: 0;
+    padding: 0;
+}

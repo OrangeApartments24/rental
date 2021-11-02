@@ -1,0 +1,21 @@
+.call__submit {
+    position: absolute;
+    right: 0;
+    width: 74px;
+    height: 55px;
+    border-radius: 15px;
+    background-image: url('../../../images/arrow_right.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 33px 25px;
+    background-color: #E68E38;
+    border: none;
+    top: 6px;
+    right: 6px;
+    cursor: pointer;
+    transition: opacity .3s;
+}
+
+.call__submit:hover {
+    opacity: .9;
+}

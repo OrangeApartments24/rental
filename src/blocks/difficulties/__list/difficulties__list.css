@@ -1,0 +1,7 @@
+.difficulties__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0;
+    padding: 0;
+    grid-gap: 40px 30px;
+}

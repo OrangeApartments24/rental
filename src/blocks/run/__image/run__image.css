@@ -1,0 +1,21 @@
+.run__image {
+    flex-grow: 1;
+    width: 270px;
+    height: 550px;
+    background-size: contain;
+    background-image: url('../../../images/run.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative
+}
+
+.run__image::before {
+    width: 566px;
+    height: 613px;
+    content: '';
+    right: 200px;
+    top: 0;
+    position: absolute;
+    background-image: url('../../../images/run_bg.svg');
+
+}

@@ -1,0 +1,12 @@
+.apartments {
+    max-width: 1280px;
+    margin: 0 auto;
+    background: #E68E38;
+    border-radius: 15px;
+    padding: 80px 90px;
+    box-sizing: border-box;
+    background-image: url('../../images/apartments.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}

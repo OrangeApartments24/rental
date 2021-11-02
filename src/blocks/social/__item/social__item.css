@@ -1,0 +1,9 @@
+.social__item {
+    padding-right: 50px;
+    cursor: pointer;
+    transition: opacity .3s;
+}
+
+.social__item:hover {
+    opacity: .6;
+}

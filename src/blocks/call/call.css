@@ -1,0 +1,12 @@
+.call {
+    max-width: 1280px;
+    margin: 0 auto;
+    border-radius: 15px;
+    border: 1px solid #E68E38;
+    background: #FFFAF5;
+    padding: 50px 60px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}

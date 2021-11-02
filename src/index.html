@@ -6,9 +6,132 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Как сдать Вашу квартиру выгодно? | Orange Apartments 24</title>
 </head>
-<body>
-    hello world
+<body class='root'>
+    <header class="header">
+        <div class="header__info">
+            <div class="logos">
+                <a href="http://orangeapart24.ru" target="_blank"><img class="logos__item" src='<%=require("./images/ds_logo.svg")%>' alt='Логотип Денис Соловёв' /></a>
+                <a href="https://denisolovev.ru" target="_blank"><img class="logos__item" src='<%=require("./images/orange_logo.svg")%>' alt='Логотип Денис Соловёв' /></a>
+            </div>
+            <h1 class="header__heading"><span class="header__heading_accent">Как сдать Вашу&nbsp;квартиру</span> выгодно?</h1>
+            <p class="header__caption">И почему традиционный способ больше не работает?</p>
+            <ui class="social">
+                <li class="social__item"><img src='<%=require("./images/instagram.svg")%>' alt="Инстаграм" class="social__image"></li>
+                <li class="social__item"><img src='<%=require("./images/tiktok.svg")%>' alt="Тик Ток" class="social__image"></li>
+                <li class="social__item"><img src='<%=require("./images/facebook.svg")%>' alt="Фейсбук" class="social__image"></li>
+            </ui>
+        </div>
+        <div class="header__image"></div>
+    </header>
+    <section class="about">
+        <div class="about__image"></div>
+        <div class="about__text-block">
+            <h2 class="block-heading about__heading">Ваша квартира заслуживает лучших арендаторов</h2>
+            <p class="about__text">Мы&nbsp;уверены, что квартира&nbsp;&mdash; это не&nbsp;просто стены, мебель и&nbsp;техника. Это частичка Вас. Поэтому так важно и&nbsp;так сложно найти людей, которых хотелось&nbsp;бы впустить домой.</p>
+        </div>
+    </section>
+    <section class="difficulties">
+        <div class="difficulties__info">
+            <h2 class="block-heading difficulties__heading">Почему сдать квартиру так сложно?</h2>
+            <ul class="difficulties__list">
+                <li class="difficulties__list-item">Шквал звонков и&nbsp;пустые встречи с&nbsp;риэлтором</li>
+                <li class="difficulties__list-item">Нужно проводить генеральную уборку и&nbsp;микро-ремонт</li>
+                <li class="difficulties__list-item">Постоянные звонки жильцов</li>
+                <li class="difficulties__list-item">Периодическсие задержки оплаты</li>
+                <li class="difficulties__list-item">Непреодолимые обстоятельства</li>
+                <li class="difficulties__list-item">Живут круглосуточно</li>
+                <li class="difficulties__list-item">Повезёт&nbsp;ли с&nbsp;жильцами</li>
+                <li class="difficulties__list-item">Пауза между арендаторами</li>
+            </ul>
+        </div>
+        <div class="difficulties__image" />
+    </section>
+    <section class="run">
+        <div class="run__image"></div>
+        <div class="run__info">
+            <h2 class="block-heading run__heading">Есть более простой путь: <span class="run__heading_accent">доверительное управление</span></h2>
+            <ol class="run__list">
+                <li class="run__list-item">Заключение договора с&nbsp;OrangeApartments24</li>
+                <li class="run__list-item">Регулярная оплата аренды за&nbsp;<span class="run__list-item_accent">2-3 месяца вперёд</span></li>
+                <li class="run__list-item">Подготовка квартирыдля приёма гостей</li>
+                <li class="run__list-item">Заселение, выселение <span class="run__list-item_accent">порядочных</span> гостей</li>
+                <li class="run__list-item">Клининг и&nbsp;поддержка квартиры <span class="run__list-item_accent">в&nbsp;идеальном состоянии</span></li>
+                <li class="run__list-item">Многолетнее <span class="run__list-item_accent">взаимовыгодное сотрудничество</span></li>
+            </ol>
+        </div>
+    </section>
+    <section class="benefits">
+        <div class="benefits__info">
+            <h2 class="block-heading benefits__heading"><span class="benefits__heading_accent">Приемущества</span> доверительного управления</h2>
+            <ul class="benefits__list">
+                <li class="benefits__list-item">Подписание договорао сохранности имущества</li>
+                <li class="benefits__list-item">Фильтрация неблагонадежных клиентов</li>
+                <li class="benefits__list-item">Профессиональный сервис менеджер</li>
+                <li class="benefits__list-item">Долгосрочный контракт</li>
+                <li class="benefits__list-item">Регулярная генеральная уборка квартиры</li>
+                <li class="benefits__list-item">Улучшение сотояния квартиры и&nbsp;регулярная оплата</li>
+                <li class="benefits__list-item">Онлайн показ квартиры собственнику</li>
+                <li class="benefits__list-item">Оплата коммунальных квитанций без&nbsp;задержек</li>
+            </ul>
+        </div>
+        <div class="benefits__image"></div>
+    </section>
+    <section class="company">
+        <div class="map company__map" id="map"></div>
+        <div class="company__text-block">
+            <h2 class="block-heading company__heading">Orange Apartments 24</h2>
+            <ul class="company__list">
+            <li class="company__list-item">На&nbsp;данный момент зоны присутствия компании: <span class="company__list-item_accent">Москва, Долгопрудный, Мытищи и&nbsp;Королев</span>.</li>
+            <li class="company__list-item">Скоро появяться первые апартаменты в&nbsp;<span class="company__list-item_accent">Санкт-Петербурге, Уфе, Казани, Краснодаре и&nbsp;Сочи</span>.</li>
+            <li class="company__list-item">На&nbsp;сегодня у&nbsp;компании <span class="company__list-item_accent">более 30&nbsp;квартир в&nbsp;доверительном управлении</span> и&nbsp;это число постоянно растет.</li>
+            <li class="company__list-item">Посмотрите на&nbsp;карте <span class="company__list-teim_accent">города и&nbsp;районы присутствия компании</span>, которые постоянно увеличиваются.</li>
+            </ul>
+            <div class="company__choose"><p class="company__choose-text">Выберите на&nbsp;карте свой дом и&nbsp;узнайте скольковы сможете заработать передав её&nbsp;в&nbsp;управление OrangeApartments24</p></div>
+        </div>
+    </section>
+    <section class="apartments">
+        <div class="apartments__text-block">
+            <h2 class="block-heading apartments__heading">Подходит&nbsp;ли моя квартира?</h2>
+            <p class="apartments__text">Да, если находится в&nbsp;городах присутствия компании и&nbsp;построена позже 2010 года</p>
+        </div>
+    </section>
+    <section class="qoute">
+        <div class="qoute__video-block">
+            <video src="" class="qoute__video"></video>
+        </div>
+        <div class="qoute__text-block">
+            <h2 class="qoute__heading">Николай Ситников</h2>
+            <p class="qoute__role">Разработчик</p>
+            <p class="qoute__text">Мы&nbsp;уверены, что квартира&nbsp;&mdash; это не&nbsp;просто стены, мебель и&nbsp;техника. Это частичка нас. Поэтому так важно и&nbsp;так сложно найти людей, которых не&nbsp;страшно впустить домой.</p>
+        </div>
+    </section>
+    <section class="call">
+        <div class="call__text-block">
+            <h2 class="block-heading call__heading">Начните получать доход</h2>
+            <p class="call__text">с доверительным управлением OrangeAprtments24</p>
+        </div>
+        <form action="/" class="call__form">
+            <input type="text" class="call__input" placeholder="Номер телефона" name="phone" />
+            <button class="call__submit" type="submit"></button>
+            <p class="call__caption">Отправляя форму, вы&nbsp;соглашаетесь с&nbsp;<a class="call__caption-link" target="_blank" href="">политикой конфиденциальности</a></p>
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="logos">
+            <a href="http://orangeapart24.ru" target="_blank"><img class="logos__item" src='<%=require("./images/ds_logo.svg")%>' alt='Логотип Денис Соловёв' /></a>
+            <a href="https://denisolovev.ru" target="_blank"><img class="logos__item" src='<%=require("./images/orange_logo.svg")%>' alt='Логотип Денис Соловёв' /></a>
+        </div>
+        <ui class="social">
+            <li class="social__item"><img src='<%=require("./images/instagram.svg")%>' alt="Инстаграм" class="social__image"></li>
+            <li class="social__item"><img src='<%=require("./images/tiktok.svg")%>' alt="Тик Ток" class="social__image"></li>
+            <li class="social__item"><img src='<%=require("./images/facebook.svg")%>' alt="Фейсбук" class="social__image"></li>
+        </ui>
+        <div class="footer__text-block">
+            <p class="footer__caption">Проект Соловьева Дениса</p>
+            <a href="" target="_blank" class="footer__link" href="/">Все проекты</a>
+            <a href="" target="_blank" class="footer__link" href="/">Политика конфиденциальности</a>
+        </div>
+    </footer>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=ec7413e6-a1df-45fe-a6f5-782d140ac977" type="text/javascript"></script>
 </body>
 </html>
-
-<!-- $2y$10$RHHUVFf/9SY2Ljfm.Ai9aOsev.iXHns7Idl/gy6QMaZ56vBknnFxe -->
