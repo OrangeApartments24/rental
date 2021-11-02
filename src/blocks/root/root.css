@@ -3,4 +3,5 @@
     -webkit-font-smoothing: antialiased;
     -moz-font-smooth: grayscale;
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }

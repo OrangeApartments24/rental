@@ -6,3 +6,24 @@
     align-items: center;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 1400px) {
+    .about {
+        max-width: 100%;
+        padding: 130px 40px 0;
+        box-sizing: border-box;
+        align-items: flex-start;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .about {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .about {
+        padding: 130px 20px 0;
+    }
+}

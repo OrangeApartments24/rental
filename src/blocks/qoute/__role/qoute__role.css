@@ -5,3 +5,9 @@
     margin: 0;
     padding: 0 0 60px;
 }
+
+@media screen and (max-width: 830px) {
+    .qoute__role {
+        padding: 0 0 30px;
+    }
+}

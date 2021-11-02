@@ -5,3 +5,23 @@
     display: flex;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 1400px) {
+    .company {
+        max-width: 100%;
+        padding: 75px 40px 100px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .company {
+        flex-direction: column-reverse;
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .company {
+        padding: 75px 20px 40px;
+    }
+}

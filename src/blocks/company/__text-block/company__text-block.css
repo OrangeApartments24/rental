@@ -1,3 +1,30 @@
 .company__text-block {
     max-width: 615px;
 }
+
+@media screen and (max-width: 1400px) {
+    .company__text-block {
+        margin-left: 50px;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .company__text-block {
+        margin: 0;
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .company__text-block {
+        margin: 0;
+        max-width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+}

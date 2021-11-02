@@ -19,3 +19,13 @@
     top: 9px;
     left: -17px;
 }
+
+
+@media screen and (max-width: 480px) {
+    .company__list-item::before {
+        height: 5px;
+        width: 5px;
+        left: -10px;
+        top: 12px;
+    }
+}

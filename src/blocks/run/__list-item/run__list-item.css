@@ -11,7 +11,7 @@
     position: absolute;
     content: counter(my-awesome-counter)".";
     left: 0;
-    bottom: 15px;
+    top: -9px;
     font-size: 40px;
     font-weight: 700;
     line-height: 35px;

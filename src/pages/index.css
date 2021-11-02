@@ -3,9 +3,15 @@
 
 @import url('../blocks/block-heading/block-heading.css');
 
+@import url('../blocks/social/social.css');
+@import url('../blocks/social/__item/social__item.css');
+@import url('../blocks/social/__image/social__image.css');
+
+
 @import url('../blocks/root/root.css');
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__info/header__info.css');
+@import url('../blocks/header/__social/header__social.css');
 @import url('../blocks/header/__heading/header__heading.css');
 @import url('../blocks/header/__heading/_accent/header__heading_accent.css');
 @import url('../blocks/header/__caption/header__caption.css');
@@ -13,10 +19,6 @@
 
 @import url('../blocks/logos/logos.css');
 @import url('../blocks/logos/__item/logos__item.css');
-
-@import url('../blocks/social/social.css');
-@import url('../blocks/social/__item/social__item.css');
-@import url('../blocks/social/__image/social__image.css');
 
 @import url('../blocks/about/about.css');
 @import url('../blocks/about/__text-block/about__text-block.css');
@@ -84,3 +86,10 @@
 @import url('../blocks/footer/__text-block/footer__text-block.css');
 @import url('../blocks/footer/__caption/footer__caption.css');
 @import url('../blocks/footer/__link/footer__link.css');
+@import url('../blocks/footer/__social/footer__social.css');
+
+@import url('../blocks/popup/popup.css');
+@import url('../blocks/popup/__content/popup__content.css');
+@import url('../blocks/popup/__heading/popup__heading.css');
+@import url('../blocks/popup/__close/popup__close.css');
+@import url('../blocks/popup/__text/popup__text.css');

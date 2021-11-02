@@ -1,5 +1,6 @@
 .qoute__video {
     background-image: url('../../../images/play.svg');
+    object-fit: cover;
     background-size: 150px 150px;
     background-repeat: no-repeat;
     background-position: 130px;
@@ -17,4 +18,10 @@
 .qoute__video:hover {
     background-size: 160px 160px;
     background-color: #E68E3895;
+}
+
+@media screen and (max-width: 1400px) {
+    .qoute__video {
+        margin-left: 0;
+    }
 }

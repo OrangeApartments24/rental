@@ -4,3 +4,30 @@
     padding-top: 150px;
     display: flex;
 }
+
+@media screen and (max-width: 1400px) {
+    .difficulties {
+        max-width: 100%;
+        padding: 130px 40px 0;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .difficulties {
+        flex-direction: column-reverse;
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .difficulties {
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .difficulties {
+        padding: 50px 20px 0;
+    }
+}

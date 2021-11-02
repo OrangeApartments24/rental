@@ -7,3 +7,11 @@
     margin: 0;
     padding: 0;
 }
+
+@media screen and (max-width: 660px) {
+    .run__list {
+        grid-template-columns: 1fr;
+        grid-gap: 40px;
+        padding-top: 30px;
+    }
+}

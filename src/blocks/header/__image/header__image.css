@@ -8,6 +8,27 @@
     box-shadow: 4px 4px 95px -84px rgba(34, 60, 80, 0.2);
 }
 
+@media screen and (max-width: 1024px) {
+    .header__image {
+        width: 400px;
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .header__image {
+        align-self: flex-end;
+    }
+}
+
+@media screen and (max-width: 485px) {
+    .header__image {
+        width: 100%;
+        height: 400px;
+    }
+}
+
+
 .header__image::before {
     content: '';
     width: 100%;

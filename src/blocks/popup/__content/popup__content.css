@@ -1,0 +1,15 @@
+.popup__content {
+    padding: 30px 50px;
+    background: #FDFAF7;
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('../../../images/run_bg.svg');
+    background-size: cover;
+    background-position: -100px 100px;
+    background-repeat: no-repeat;
+    max-width: 90%;
+    box-sizing: border-box;
+}

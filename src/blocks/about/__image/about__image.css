@@ -20,3 +20,18 @@
     bottom: -50%;
     background-image: url('../../../images/about_bg.svg');
 }
+
+@media screen and (max-width: 580px) {
+    .about__image {
+        width: 220px;
+        height: 360px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .about__image {
+        width: 180px;
+        height: 320px;
+    }
+}

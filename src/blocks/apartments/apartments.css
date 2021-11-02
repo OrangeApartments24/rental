@@ -10,3 +10,28 @@
     background-size: contain;
     background-position: right;
 }
+
+@media screen and (max-width: 1400px) {
+    .apartments {
+        padding: 80px 40px;
+        border-radius: 0;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .apartments {
+        background-position: 200%;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .apartments {
+        background-image: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .apartments {
+        padding: 60px 20px;
+    }
+}

@@ -5,3 +5,9 @@
     padding: 0;
     grid-gap: 40px 30px;
 }
+
+@media screen and (max-width: 680px) {
+    .difficulties__list {
+        grid-template-columns: 1fr;
+    }
+}

@@ -18,3 +18,15 @@
     top: 100px;
     background-image: url('../../../images/benefits_bg.svg');
 }
+
+@media screen and (max-width: 1400px) {
+    .benefits__image {
+        background-size: contain;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .benefits__image {
+        height: 400px;
+    }
+}

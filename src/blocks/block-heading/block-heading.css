@@ -5,3 +5,20 @@
     line-height: 59px;
     color: black;
 }
+
+@media screen and (max-width: 1024px) {
+    .block-heading {
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 50px;
+        color: black;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .block-heading {
+        font-size: 35px;
+        line-height: 45px;
+    }
+}

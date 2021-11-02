@@ -14,11 +14,17 @@
     content: '';
     position: absolute;
     background-image: url('../../../images/plus.svg');
-    background-size: 48px 48px;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     width: 48px;
     left: 0;
     top: 0;
     height: 100%;
+}
+
+@media screen and (max-width: 720px) {
+    .benefits__list-item  {
+        min-height: 40px;
+    }
 }

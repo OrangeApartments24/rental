@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=deb97502-593f-4f3d-a1d5-b5570b7e4dc2&lang=ru_RU" type="text/javascript"></script>
     <title>Как сдать Вашу квартиру выгодно? | Orange Apartments 24</title>
 </head>
 <body class='root'>
     <header class="header">
         <div class="header__info">
             <div class="logos">
-                <a href="http://orangeapart24.ru" target="_blank"><img class="logos__item" src='<%=require("./images/ds_logo.svg")%>' alt='Логотип Денис Соловёв' /></a>
-                <a href="https://denisolovev.ru" target="_blank"><img class="logos__item" src='<%=require("./images/orange_logo.svg")%>' alt='Логотип Денис Соловёв' /></a>
+                <a href="https://denisolovev.ru" target="_blank"><img class="logos__item" src='<%=require("./images/ds_logo.svg")%>' alt='Логотип Денис Соловёв' /></a>
+            <a href="http://orangeapart24.ru" target="_blank"><img class="logos__item" src='<%=require("./images/orange_logo.svg")%>' alt='Логотип Денис Соловёв' /></a>
             </div>
-            <h1 class="header__heading"><span class="header__heading_accent">Как сдать Вашу&nbsp;квартиру</span> выгодно?</h1>
+            <h1 class="header__heading"><span class="header__heading_accent">Как сдать Вашу квартиру</span> выгодно?</h1>
             <p class="header__caption">И почему традиционный способ больше не работает?</p>
-            <ui class="social">
+            <ui class="social header__social">
                 <li class="social__item"><img src='<%=require("./images/instagram.svg")%>' alt="Инстаграм" class="social__image"></li>
                 <li class="social__item"><img src='<%=require("./images/tiktok.svg")%>' alt="Тик Ток" class="social__image"></li>
                 <li class="social__item"><img src='<%=require("./images/facebook.svg")%>' alt="Фейсбук" class="social__image"></li>
@@ -86,7 +87,7 @@
             <li class="company__list-item">На&nbsp;сегодня у&nbsp;компании <span class="company__list-item_accent">более 30&nbsp;квартир в&nbsp;доверительном управлении</span> и&nbsp;это число постоянно растет.</li>
             <li class="company__list-item">Посмотрите на&nbsp;карте <span class="company__list-teim_accent">города и&nbsp;районы присутствия компании</span>, которые постоянно увеличиваются.</li>
             </ul>
-            <div class="company__choose"><p class="company__choose-text">Выберите на&nbsp;карте свой дом и&nbsp;узнайте скольковы сможете заработать передав её&nbsp;в&nbsp;управление OrangeApartments24</p></div>
+            <div class="company__choose"><p class="company__choose-text">Выберите на&nbsp;карте свой дом и&nbsp;узнайте сколько Вы сможете заработать передав его&nbsp;в&nbsp;управление OrangeApartments24</p></div>
         </div>
     </section>
     <section class="apartments">
@@ -97,12 +98,14 @@
     </section>
     <section class="qoute">
         <div class="qoute__video-block">
-            <video src="" class="qoute__video"></video>
+            <video class="qoute__video" controls="controls" poster='<%=require("./images/cover.jpg")%>'>
+                <source src='<%=require("./images/qoute.mp4")%>' type='video/mp4;'>
+            </video>
         </div>
         <div class="qoute__text-block">
-            <h2 class="qoute__heading">Николай Ситников</h2>
-            <p class="qoute__role">Разработчик</p>
-            <p class="qoute__text">Мы&nbsp;уверены, что квартира&nbsp;&mdash; это не&nbsp;просто стены, мебель и&nbsp;техника. Это частичка нас. Поэтому так важно и&nbsp;так сложно найти людей, которых не&nbsp;страшно впустить домой.</p>
+            <h2 class="qoute__heading">Валерия</h2>
+            <p class="qoute__role">Предприниматель</p>
+            <p class="qoute__text">Я&nbsp;очень довольна: Мне платят деньги наперёд. Поддерживют имущество в&nbsp;чистоте. Всё производят своевременно, все условия договора соблюдаются.</p>
         </div>
     </section>
     <section class="call">
@@ -110,7 +113,7 @@
             <h2 class="block-heading call__heading">Начните получать доход</h2>
             <p class="call__text">с доверительным управлением OrangeAprtments24</p>
         </div>
-        <form action="/" class="call__form">
+        <form action="/" class="call__form" name="lead">
             <input type="text" class="call__input" placeholder="Номер телефона" name="phone" />
             <button class="call__submit" type="submit"></button>
             <p class="call__caption">Отправляя форму, вы&nbsp;соглашаетесь с&nbsp;<a class="call__caption-link" target="_blank" href="">политикой конфиденциальности</a></p>
@@ -118,10 +121,10 @@
     </section>
     <footer class="footer">
         <div class="logos">
-            <a href="http://orangeapart24.ru" target="_blank"><img class="logos__item" src='<%=require("./images/ds_logo.svg")%>' alt='Логотип Денис Соловёв' /></a>
-            <a href="https://denisolovev.ru" target="_blank"><img class="logos__item" src='<%=require("./images/orange_logo.svg")%>' alt='Логотип Денис Соловёв' /></a>
+            <a href="https://denisolovev.ru" target="_blank"><img class="logos__item" src='<%=require("./images/ds_logo.svg")%>' alt='Логотип Денис Соловёв' /></a>
+            <a href="http://orangeapart24.ru" target="_blank"><img class="logos__item" src='<%=require("./images/orange_logo.svg")%>' alt='Логотип Денис Соловёв' /></a>
         </div>
-        <ui class="social">
+        <ui class="social footer__social">
             <li class="social__item"><img src='<%=require("./images/instagram.svg")%>' alt="Инстаграм" class="social__image"></li>
             <li class="social__item"><img src='<%=require("./images/tiktok.svg")%>' alt="Тик Ток" class="social__image"></li>
             <li class="social__item"><img src='<%=require("./images/facebook.svg")%>' alt="Фейсбук" class="social__image"></li>
@@ -132,6 +135,12 @@
             <a href="" target="_blank" class="footer__link" href="/">Политика конфиденциальности</a>
         </div>
     </footer>
-    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=ec7413e6-a1df-45fe-a6f5-782d140ac977" type="text/javascript"></script>
+    <div class="popup">
+        <div class="popup__content">
+            <button type="button" class="popup__close"></button>
+            <h2 class="block-heading popup__heading">от 105 000₽ до 135 000₽</h2>
+            <p class="popup__text">Вы&nbsp;получите сразу после подписания договора. Оплата производится на&nbsp;3&nbsp;месяца вперёд</p>
+        </div>
+    </div>
 </body>
 </html>

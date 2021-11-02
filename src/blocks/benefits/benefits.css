@@ -4,3 +4,25 @@
     padding-top: 200px;
     display: flex;
 }
+
+
+@media screen and (max-width: 1400px) {
+    .benefits {
+        max-width: 100%;
+        padding: 100px 40px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .benefits {
+        flex-direction: column-reverse;
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .benefits {
+        padding: 0 20px;
+    }
+}

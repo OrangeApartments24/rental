@@ -8,3 +8,20 @@
     background-position: left bottom;
     background-size: 70px 80px;
 }
+
+@media screen and (max-width: 900px) {
+    .company__choose {
+        width: 30%;
+        padding: 20px 20px 130px;
+        align-self: flex-end;
+        margin-bottom: 30px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .company__choose {
+        align-self: flex-start;
+        width: 100%;
+    }
+}

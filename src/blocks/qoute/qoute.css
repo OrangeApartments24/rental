@@ -5,4 +5,21 @@
     justify-content: space-between;
     padding: 120px 0 100px;
     align-items: center;
+    display: none;
+}
+
+@media screen and (max-width: 1400px) {
+    .qoute {
+        padding: 120px 40px 100px;
+        box-sizing: border-box;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .qoute {
+        flex-direction: column;
+        text-align: center;
+        padding: 120px 0 40px;
+    }
 }

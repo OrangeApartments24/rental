@@ -6,3 +6,18 @@
     align-items: flex-end;
     padding: 90px 0;
 }
+
+
+@media screen and (max-width: 1400px) {
+    .footer {
+        flex-wrap: wrap;
+        max-width: 100%;
+        padding: 0 40px 40px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .footer {
+        padding: 0 20px 40px
+    }
+}

@@ -19,3 +19,10 @@
 .call__input:focus {
     border-color: #E68E3880;;
 }
+
+@media screen and (max-width: 740px) {
+    .call__input {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}

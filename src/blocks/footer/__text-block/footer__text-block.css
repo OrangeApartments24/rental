@@ -3,3 +3,10 @@
     flex-direction: column;
     align-items: flex-end;
 }
+
+@media screen and (max-width: 1022px) {
+    .footer__text-block {
+        align-items: flex-start;
+        padding-top: 25px;
+    }
+}

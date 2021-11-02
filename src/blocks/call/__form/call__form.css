@@ -4,3 +4,10 @@
     flex-direction: column;
     align-items: flex-end;
 }
+
+@media screen and (max-width: 740px) {
+    .call__form {
+        width: 100%;
+        align-items: flex-start;
+    }
+}

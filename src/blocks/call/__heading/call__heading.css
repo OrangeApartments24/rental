@@ -3,3 +3,18 @@
     margin: 0;
     padding: 0 0 20px;
 }
+
+@media screen and (max-width: 1140px) {
+    .call__heading {
+        padding-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .call__heading {
+        padding-bottom: 20px;
+    }
+}
+
+
+/* padding: 0 0 34px; */

@@ -11,3 +11,9 @@
     top: 0;
     left: 0;
 }
+
+@media screen and (max-width: 1400px) {
+    .qoute__video-block {
+        background-image: none;
+    }
+}

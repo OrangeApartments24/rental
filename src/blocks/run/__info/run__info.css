@@ -1,3 +1,15 @@
 .run__info {
     max-width: 640px;
 }
+
+@media screen and (max-width: 1024px) {
+    .run__info {
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .run__info {
+        height: 100%;
+    }
+}

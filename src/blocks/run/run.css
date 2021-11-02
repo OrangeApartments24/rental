@@ -5,3 +5,30 @@
     padding-top: 200px;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 1400px) {
+    .run {
+        max-width: 100%;
+        box-sizing: border-box;
+        padding: 200px 40px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .run {
+        padding: 100px 40px;
+    }
+}
+
+
+@media screen and (max-width: 1080px) {
+    .run {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .run {
+        padding: 100px 20px 20px;
+    }
+}

@@ -17,5 +17,21 @@
     top: 0;
     position: absolute;
     background-image: url('../../../images/run_bg.svg');
+}
 
+@media screen and (max-width: 1080px) {
+    .run__image {
+        width: 220px;
+        height: 500px;
+        align-self: center;
+    }
+    .run__image::before {
+        left: 30%;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .run__image {
+        height: 400px;
+    }
 }

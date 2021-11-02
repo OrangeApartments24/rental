@@ -1,6 +1,6 @@
 .difficulties__image {
     background-image: url('../../../images/difficulties.svg');
-    background-size: 520px 520px;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     flex-grow: 1;
@@ -17,4 +17,23 @@
     left: 180px;
     top: 100px;
     background-image: url('../../../images/difficulties_bg.svg');
+}
+
+@media screen and (max-width: 1400px) {
+    .difficulties__image {
+        background-size: contain;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .difficulties__image {
+        height: 400px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .difficulties__image {
+        height: 300px;
+    }
 }

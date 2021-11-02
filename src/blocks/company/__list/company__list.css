@@ -2,3 +2,17 @@
     padding: 0;
     margin: 0;
 }
+
+@media screen and (max-width: 900px) {
+    .company__list {
+        width: 50%;
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .company__list {
+        width: 100%;
+        margin-right: 50px;
+    }
+}
