@@ -43,14 +43,11 @@ leadForm.addEventListener('submit', (e) => {
             'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-            "TITLE": "ИП Титов", 
-            "NAME": "Глеб", 
-            "SECOND_NAME": "Егорович", 
-            "LAST_NAME": "Титов", 
-            "STATUS_ID": "NEW", 
-            "OPENED": "Y", 
-            "ASSIGNED_BY_ID": 1,
-            "PHONE": [ { "VALUE": "555888", "VALUE_TYPE": "WORK" } ] 
+            "fields": {
+                "TITLE": "Аренда Квартир",
+                "PHONE": [ { "VALUE": phoneNumber, "VALUE_TYPE": "WORK" } ] 
+            },
+            "params": { 'REGISTER_SONET_EVENT': 'Y' }
         })
     }).then(res => {
         if(res.ok) { return res.json() }

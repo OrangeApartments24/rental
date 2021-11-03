@@ -4,4 +4,10 @@
     -moz-font-smooth: grayscale;
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
+    max-width: 100%;
+}
+
+html {
+    overflow-x: hidden;
+    max-width: 100%;
 }
