@@ -1,6 +1,7 @@
 .header__image {
     background: url('../../../images/hero.jpg');
     background-size: cover;
+    background-position: right;
     width: 450px;
     height: 570px;
     border-radius: 48px;
@@ -46,7 +47,7 @@
     border-radius: 15px;
     border: 1px solid white;
     top: 30px;
-    left: 40px;
+    right: 40px;
     position: absolute;
     color: white;
 }
