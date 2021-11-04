@@ -5,3 +5,9 @@
 .logos__item {
     cursor: pointer;
 }
+
+@media screen and (max-width: 560px) {
+    .logos__item {
+        margin-bottom: 10px;
+    }
+}
