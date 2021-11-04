@@ -37,6 +37,8 @@ leadForm.addEventListener('submit', (e) => {
 
     e.target.innerHTML = '<p class="call__text">Спасибо, ваша заявка отправлена</p>';
 
+    ym(86279738,'reachGoal','lead');
+
     fetch('https://orangeapartments24.bitrix24.ru/rest/2952/g8k1abjojuyqn8xq/crm.lead.add.json', {
         method: 'POST',
         headers: {
