@@ -39,7 +39,7 @@ leadForm.addEventListener('submit', (e) => {
 
     ym(86279738,'reachGoal','lead');
 
-    fetch('https://orangeapartments24.bitrix24.ru/rest/2952/g8k1abjojuyqn8xq/crm.lead.add.json', {
+    fetch('https://orangeapartments24.bitrix24.ru/rest/52/r0yh9147wl8vv6gm/crm.lead.add.json', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
